@@ -30,7 +30,7 @@ if (mysqli_num_rows($result) > 0) {
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="text-center">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"></a>
             </div>
           </nav>
           <h1 class="text-center">Gestionnaire de tâche</h1></br>
@@ -40,7 +40,7 @@ if (mysqli_num_rows($result) > 0) {
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Tâches à faire</th>
-                <th scope="col">Terminer</th>
+                <th scope="col">en cours/Terminer</th>
                 <th scope="col">Supprimer</th>
               </tr>
             </thead>
